@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+build/
+.build/
+*.o
+*.a
+*.dylib
+*.so
+*.swp
+*~
+
+# Compiled Vendor libs (will be built via Scripts/build_unrar.sh)
+Vendor/lib/
